@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Home: NextPage = () => {
   return (
     <div className="bg-green-500">
-      <p>Pagina de index</p>
+      <p>Pagina de index - prueba dev</p>
       <Link href="/admin/usuarios">
         <a className="cursor-pointer">Ir a usuarios</a>
       </Link>
